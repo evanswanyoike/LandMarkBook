@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="29P-Ju-Rh4">
-                                <rect key="frame" x="0.0" y="140" width="393" height="678"/>
+                                <rect key="frame" x="0.0" y="94" width="393" height="724"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OwC-Nr-Fuy">
-                                <rect key="frame" x="0.0" y="96" width="393" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="393" height="44"/>
                                 <items>
                                     <navigationItem title="Land Marks" id="iDK-Kg-XhW"/>
                                 </items>
@@ -30,13 +30,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="29P-Ju-Rh4" firstAttribute="top" secondItem="OwC-Nr-Fuy" secondAttribute="bottom" id="Bhr-Sn-ga5"/>
-                            <constraint firstItem="OwC-Nr-Fuy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CL9-Le-Rya"/>
                             <constraint firstItem="29P-Ju-Rh4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="F0e-qa-E3R"/>
-                            <constraint firstItem="OwC-Nr-Fuy" firstAttribute="leading" secondItem="29P-Ju-Rh4" secondAttribute="leading" id="XxH-5C-iLi"/>
+                            <constraint firstItem="OwC-Nr-Fuy" firstAttribute="trailing" secondItem="29P-Ju-Rh4" secondAttribute="trailing" id="JkD-W5-d5q"/>
+                            <constraint firstItem="29P-Ju-Rh4" firstAttribute="top" secondItem="OwC-Nr-Fuy" secondAttribute="bottom" id="Lzq-Xc-iCf"/>
+                            <constraint firstItem="OwC-Nr-Fuy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-53" id="M3Q-le-6Q5"/>
+                            <constraint firstItem="OwC-Nr-Fuy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SUC-PC-kmA"/>
+                            <constraint firstItem="OwC-Nr-Fuy" firstAttribute="leading" secondItem="29P-Ju-Rh4" secondAttribute="leading" id="i1y-k9-Lwx"/>
                             <constraint firstItem="29P-Ju-Rh4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mLX-9R-3Q5"/>
-                            <constraint firstItem="OwC-Nr-Fuy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-7" id="oZ8-j5-OVj"/>
-                            <constraint firstItem="OwC-Nr-Fuy" firstAttribute="trailing" secondItem="29P-Ju-Rh4" secondAttribute="trailing" id="ukI-HM-Rnw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pyZ-B1-glK"/>

@@ -71,6 +71,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            self.landMarkNames.remove(at: indexPath.row)
+            self.landMarkImages.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+
+        }
+    }
+    
 
 
 }
